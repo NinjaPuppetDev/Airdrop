@@ -1,7 +1,16 @@
-Airdrop
+# Airdrop
 
-Uses Merkle Proofs to verify the address, ECDSA signatures to sign the transaction and claim the airdrop.
+This project implements an **Airdrop system** that utilizes:
 
-'git clone https://github.com/NinjaPuppetDev/Airdrop/
+- **Merkle Proofs** to efficiently verify eligible addresses.
+- **ECDSA Signatures** to securely sign transactions and authorize claims.
+
+## Getting Started
+
+Clone the repository and build the project using Foundry:
+
+```bash
+git clone https://github.com/NinjaPuppetDev/Airdrop/
 cd Airdrop
-forge build'
+forge build
+
